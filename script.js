@@ -12,4 +12,6 @@ function updateTime() {
     getMinuts.textContent = minutes
     getSeconds.textContent = seconds 
 }
+
+updateTime()
 setInterval(updateTime, 1000)
